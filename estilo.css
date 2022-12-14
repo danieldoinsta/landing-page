@@ -1,0 +1,63 @@
+body{
+    background-image: url(set2.jpg);
+    cursor: url(img/cursor.cur),default;
+}
+
+header{
+    font-style: oblique;
+    text-align:start;
+    margin: 30px;
+    font-weight: 100px;
+    color: rgb(17, 245, 9);
+    border: 10vh;
+    max-width: max-content;
+}
+
+header:hover{
+    background-color: rgba(255, 255, 0, 0.26);
+}
+
+.texto{
+font-size: x-large;
+color: rgb(17, 245, 9);
+margin: 30px;
+font-style: italic;
+justify-content: space-between;
+max-width: max-content;
+
+}
+
+fieldset{
+    background-color: rgb(12, 206, 54);
+    text-align: center;
+    max-width:max-content;
+}
+
+fieldset:hover{
+    background-color: yellowgreen;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    display:block;
+    position: fixed;
+    bottom: 0vh;
+    left: 0%;
+    width: 100%;
+    background-color:rgb(12, 206, 55);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer:hover{
+    background-color: yellowgreen;
+}
+
+.imagem2{
+    display:flex;
+    justify-content:flex-end;
+}
